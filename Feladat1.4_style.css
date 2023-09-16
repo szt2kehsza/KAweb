@@ -1,0 +1,26 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex-container div{ 
+    align-items: stretch;
+    width: 600px;
+    height: 150px;
+    
+}
+
+#negyedikitem1{
+
+    background-color: green;
+}
+#negyedikitem2{
+    height: 250px;
+    background-color: yellow;
+   
+}
+#negyedikitem3{
+    background-color: purple;
+    
+}

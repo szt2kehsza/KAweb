@@ -1,0 +1,23 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-container div{ 
+    flex: 1;
+    width: 100%;
+    height: 300px;
+}
+
+#masodikitem1{
+    flex:1;
+    background-color: green;
+}
+#masodikitem2{
+    flex: 2;
+    background-color: yellow;
+}
+#masodikitem3{
+    flex: 1;
+    background-color: purple;
+}

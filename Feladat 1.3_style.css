@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+
+}
+
+.flex-container div{ 
+    flex: 1;
+    width: 100%;
+    height: 300px;
+    
+}
+
+#harmadikitem1{
+    flex:1;
+    
+    background-color: green;
+}
+#harmadikitem2{
+    flex: 2;
+    background-color: yellow;
+}
+#harmadikitem3{
+    flex: 1;
+    background-color: purple;
+}
